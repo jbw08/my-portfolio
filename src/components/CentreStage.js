@@ -10,7 +10,7 @@ import {
  
 export default function CentreStage() {
   return (
-    <Card className="block rounded-lg shadow-lg mr-6 ml-6 pt-6 pb-6">
+    <Card className="block rounded shadow-lg mx-auto pt-6 pb-6  overflow-hidden max-w-sm">
       <CardHeader floated={false} className="relative w-80 h-80 mx-auto rounded-full overflow-hidden">
           <img src={ portImage } alt="JBW"/>
       </CardHeader> 
@@ -18,13 +18,13 @@ export default function CentreStage() {
         {/* <Typography variant="h4" color="blue-gray" className="mb-2 pt-6 font-bold">
           Hey! I'm Joshua Blake-Williams :)
         </Typography> */}
-        <Typography color="blue" className="sticky font-medium" textGradient>
+        <Typography color="blue" className="font-medium" textGradient>
           I'm a Fullstack developer Based in the United Kingdom.
-          My experience involves the bespoke creation of varying projects across disciplines. <br/>
+          My experience involves the bespoke creation of varying projects across disciplines. <br/><br/>
           Feel free to hang around for a while and get to know me :)
         </Typography>
       </CardBody>
-      <CardFooter className="flex justify-center gap-7 pt-2">
+      {/* <CardFooter className="flex justify-center gap-7 pt-2">
         <Tooltip content="Like">
           <Typography
             as="a"
@@ -58,7 +58,7 @@ export default function CentreStage() {
             <i className="fab fa-instagram" />
           </Typography>
         </Tooltip>
-      </CardFooter>
+      </CardFooter> */}
     </Card>
   );
   }
