@@ -19,7 +19,7 @@ export default function CentreStage() {
           Hey! I'm Joshua Blake-Williams :)
         </Typography> */}
         <Typography color="blue" className="font-medium" textGradient>
-          I'm a Fullstack developer Based in the United Kingdom.
+          I'm a Fullstack developer based in the United Kingdom.
           My experience involves the bespoke creation of varying projects across disciplines. <br/><br/>
           Feel free to hang around for a while and get to know me :)
         </Typography>
